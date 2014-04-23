@@ -25,9 +25,15 @@ describe("getName", function() {
 // 	});
 // });
 
-describe("keyValue", function() {
-	it("should take two string literals, create a new object, and make them key/value pairs", function() {
-		var keyValue = ('city', 'Denver');
-		expect(keyValue).toEqual(Object {city: "Denver"});
-	}); 
-});
+// describe("keyValue", function() {
+// 	it("should take two string literals, create a new object, and make them key/value pairs", function() {
+// 		var keyValue = ('city', 'Denver');
+// 		expect(keyValue).toEqual(Object {city: "Denver"});
+// 	}); 
+// });
+
+describe("negativeIndex", function () {
+	it("should take an Array String Literal and a negative number and return the item at that negative index in the array", function() {
+		expect().toEqual(d);
+	})
+})
