@@ -29,4 +29,14 @@
 	totalLetters(['javascript', 'is', 'awesome']);
 	totalLetters2(['what', 'happened', 'to', 'my', 'function']);
 
-//3.) 
+//3.)Write a function called 'keyValue' which takes two arguments and returns an object with a key of the first argument and the value of the second argument.
+// keyValue('city', 'Denver') should return Object {city: "Denver"}
+
+var keyValue = function(key, value){
+	var newObj = {};
+	newObj[key] = value;
+	// console.log(newObj);  //logs Object {city: "Denver"}
+	return newObj;
+}
+keyValue('city', 'Denver'); 
+

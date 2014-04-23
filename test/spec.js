@@ -24,3 +24,10 @@ describe("getName", function() {
 // 	expect(totalLetters2).toEqual(24);
 // 	});
 // });
+
+describe("keyValue", function() {
+	it("should take two string literals, create a new object, and make them key/value pairs", function() {
+		var keyValue = ('city', 'Denver');
+		expect(keyValue).toEqual(Object {city: "Denver"});
+	}); 
+});
